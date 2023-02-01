@@ -22,16 +22,12 @@
 
       const ordersChart = new ColumnChart({
         data: ordersData,
-        label: 'orders',
-        value: 344,
-        link: '#'
       });
 
       const salesChart = new ColumnChart({
         data: salesData,
         label: 'sales',
         value: 243437,
-        formatHeading: data => `$${data}`
       });
 
       const customersChart = new ColumnChart({
