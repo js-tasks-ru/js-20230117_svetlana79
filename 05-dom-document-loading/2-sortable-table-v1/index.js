@@ -137,4 +137,4 @@ export default class SortableTable {
     this.element = {};
     this.subElements = {};
   }
-}
+} 
