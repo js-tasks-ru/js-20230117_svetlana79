@@ -137,4 +137,8 @@ export default class SortableTable {
     this.element = null;
     this.subElements = null;
   }
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 35d8713517001b285eac9ce5c7e2cfe3942897c8
