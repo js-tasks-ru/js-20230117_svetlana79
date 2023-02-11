@@ -126,15 +126,15 @@ export default class SortableTable {
     return result;
   }
 
-  remove () {
+  remove() {
     if (this.element) {
-      this.element.remove;
+      this.element.remove();
     }
   }
 
   destroy() {
     this.remove();
-    this.element = {};
-    this.subElements = {};
+    this.element = null;
+    this.subElements = null;
   }
 }
